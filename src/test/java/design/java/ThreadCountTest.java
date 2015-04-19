@@ -1,4 +1,4 @@
-package design;
+package design.java;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
