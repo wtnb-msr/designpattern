@@ -7,6 +7,10 @@ organization := "design"
 scalaVersion := "2.11.4"
 
 libraryDependencies ++= Seq(
+  "org.scala-lang" % "scala-swing" % "2.11.0-M7"
+)
+
+libraryDependencies ++= Seq(
   "junit" % "junit" % "4.12" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test",
   "org.specs2" %% "specs2-junit" % "3.4" % "test"
